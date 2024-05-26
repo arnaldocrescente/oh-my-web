@@ -30,9 +30,9 @@
     }
   },
   "intro": {
-    "main": "I enjoy working with modern technologies and stacks; I have no particular preferences. Recently, I have worked with C++, Java, and dSpace in the Automotive sector, but my preferred technologies are:",
+    "main": "I am seeking a challenging job opportunity in a dynamic and innovative environment where I can apply my skills and make a significant impact. I enjoy working with modern technologies and stacks; I have no particular preferences. Recently, I have worked with C++, Java, and dSpace in the Automotive sector. However, the technologies I prefer are:",
     "list": "SaaS services|Node.js, Express.js, Nest.js, TypeScript, React, React Native, Next.js, Angular|Python, FastAPI, Django, Tornado, Flask|AWS, I love working with many serverless services and using IaC for deploying various environments|CI/CD|Docker, docker-compose, and Kubernetes|Non-relational databases like DynamoDB and MongoDB, relational databases like Postgres, and Key-Value storage like Redis|Event-driven tools like Kafka, ZeroMQ, PubSub, WebSocket|Performance optimization in both frontend and backend",
-    "middle": "I write code following “Clean Code” guidelines and various approaches to make the code maintainable. I actively study outside of work hours to find the best solutions and stay updated on the latest advancements. I enjoy being involved in team training and aspire to work as a Senior Full Stack Engineer or Technical Leader. I am open to new challenges, motivated to grow professionally, and eager to contribute to the company's success."
+    "middle": "I write code following “Clean Code” guidelines and employing various approaches to ensure maintainability. I actively study outside of work hours to find the best solutions and stay updated on the latest advancements. I enjoy being involved in team training and aspire to work as a Senior Full Stack Engineer or Technical Leader. I am open to new challenges, motivated to grow professionally, and eager to contribute to the company's success."
   },
   "timeline": {
     "myself": {
@@ -53,7 +53,7 @@
     },
     "bitaly": {
       "jobTitle": "Full Stack Developer",
-      "description": "I developed a management system for the sale of metal sheets that allows the choice of customized cuts directly on the website with a preview. The technologies used include PHP, Laravel, JavaScript, jQuery, and CSS."
+      "description": "I developed a CMS for the sale of metal sheets that allows the choice of customized cuts directly on the website with a preview. Technologies used include PHP, Laravel, JS, jQuery, CSS."
     },
     "bitaly2": {
       "jobTitle": "Full Stack Developer",
@@ -73,7 +73,7 @@
     },
     "kineton2": {
       "jobTitle": "Automotive Cloud Specialist",
-      "description": "Currently, I coordinate and develop an application for planning and automation testing in the automotive sector. I handle requirement gathering, documentation writing, and long-term GANTT production. The technologies I use include Java, Java Play Framework, Angular, Docker, CI/CD, AWS, Amazon ECS, Amazon RDS, Postgres, Redis, Kafka, Python, Grafana, and dSPACE."
+      "description": "Coordination and development of an application for planning and automating tests in the automotive sector. I was responsible for requirements gathering, documentation writing, and long-term GANTT chart production. The technologies I used include Java, Java Play Framework, Angular, Docker, CI/CD, AWS, Amazon ECS, Amazon RDS, Postgres, Redis, Kafka, Python, Grafana, and dSPACE."
     },
     "kineton3": {
       "jobTitle": "P&P Solution Architect",

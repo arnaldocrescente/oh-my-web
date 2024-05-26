@@ -2,9 +2,8 @@ import { useState, lazy, Suspense } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Route, Routes } from 'react-router-dom';
 
-import { ConfigProvider, Drawer, Layout, Space, theme } from 'antd';
-import { HomeFilled, UserOutlined } from '@ant-design/icons';
-
+import { Button, ConfigProvider, Drawer, Layout, Space, theme } from 'antd';
+import { CodeOutlined, HomeFilled, UserOutlined } from '@ant-design/icons';
 import enGB from 'antd/locale/en_GB';
 import itIT from 'antd/locale/it_IT';
 
@@ -92,9 +91,18 @@ export function App() {
           </div>
           <div className={styles['extra']}>
             <Space>
+              <Button
+                icon={<CodeOutlined />}
+                size="small"
+                iconPosition="end"
+                target="_blank"
+                href="https://github.com/arnaldocrescente/oh-my-web"
+              >
+                {t('sourcecode')}
+              </Button>
               <LanguageSwitcher
                 onChange={switchLanguage}
-                currentLanguage={language}
+                currentLanguage={language === 'en' ? 'it' : 'en'}
               />
               <ThemeSwitcher onChange={switchTheme} />
             </Space>
@@ -116,7 +124,6 @@ export function App() {
           <PageContainer>
             <Routes>
               <Route path="/" element={<HomePage />} />
-
               <Route path="/cv" element={<Cv />} />
             </Routes>
           </PageContainer>

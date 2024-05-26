@@ -1,16 +1,11 @@
 {
-  "title": "Welcome!",
-  "description": {
-    "part1": "This is just a basic example of how to use i18next with typescript",
-    "part2": "😉"
-  },
   "home": {
     "description": "I am a developer who loves my work 💻. I constantly strive to enhance my skills and stay updated on cutting-edge technologies 📚, delivering increasingly efficient and innovative solutions 🚀. Outside of work, I enjoy various hobbies that keep me active and motivated. I love music 🎵, play the guitar 🎸, and attend many concerts 🎤. Trekking 🥾 helps me stay fit. Rugby 🏉 has taught me respect for my teammates and the importance of teamwork, principles I apply in my role as a developer and tech leader 👨‍💻. I also enjoy experimenting in the kitchen 🍳 and working with wood and metal 🛠️, creating various projects."
   },
+  "sourcecode": "Source code",
   "inter": "interpolated {{val}}",
   "nav": {
     "home": "Home",
-    "cv": "CV",
-    "contacts": "Contacts"
+    "cv": "CV"
   }
 }
