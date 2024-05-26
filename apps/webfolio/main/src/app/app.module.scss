@@ -3,7 +3,8 @@
   flex-direction: row;
   flex-wrap: nowrap;
   position: relative;
-  height: inherit;
+  height: 100%;
+  padding: 24px 0;
 
   .extra {
     position: absolute;
