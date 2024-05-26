@@ -1,0 +1,46 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "resolveJsonModule": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": [
+      "es2020",
+      "dom"
+    ],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@omw/i18n": [
+        "libs/webfolio/i18n/src/index.ts"
+      ],
+      "@omw/shared/flags": [
+        "libs/shared/flags/index.ts"
+      ],
+      "@omw/webfolio/cv": [
+        "libs/webfolio/cv/src/index.ts"
+      ],
+      "@omw/webfolio/i18n": [
+        "libs/webfolio/i18n/src/lib/index.tsx"
+      ],
+      "@omw/webfolio/main": [
+        "libs/webfolio/main/src/index.ts"
+      ],
+      "cv/Module": [
+        "apps/webfolio/cv/src/remote-entry.ts"
+      ]
+    }
+  },
+  "exclude": [
+    "node_modules",
+    "tmp"
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "downloadUrl": "https://raw.githubusercontent.com/arnaldocrescente/cv-public/main/cv-2024-EN-public.pdf",
+  "now": "Present",
+  "aboutme": "About me",
+  "experience": "Experience",
+  "companies": {
+    "myself": {
+      "name": "MySelf",
+      "location": "Naples"
+    },
+    "lumilab": {
+      "name": "Lumilab srls",
+      "location": "Naples"
+    },
+    "lastingdynamics": {
+      "name": "Lasting Dynamics srl",
+      "location": "Naples"
+    },
+    "bitaly": {
+      "name": "Bitaly sas",
+      "location": "Rome"
+    },
+    "bit4id": {
+      "name": "Bit4id srl",
+      "location": "Naples"
+    },
+    "kineton": {
+      "name": "Kineton srl",
+      "location": "Naples"
+    }
+  },
+  "intro": {
+    "main": "I enjoy working with modern technologies and stacks; I have no particular preferences. Recently, I have worked with C++, Java, and dSpace in the Automotive sector, but my preferred technologies are:",
+    "list": "SaaS services|Node.js, Express.js, Nest.js, TypeScript, React, React Native, Next.js, Angular|Python, FastAPI, Django, Tornado, Flask|AWS, I love working with many serverless services and using IaC for deploying various environments|CI/CD|Docker, docker-compose, and Kubernetes|Non-relational databases like DynamoDB and MongoDB, relational databases like Postgres, and Key-Value storage like Redis|Event-driven tools like Kafka, ZeroMQ, PubSub, WebSocket|Performance optimization in both frontend and backend",
+    "middle": "I write code following “Clean Code” guidelines and various approaches to make the code maintainable. I actively study outside of work hours to find the best solutions and stay updated on the latest advancements. I enjoy being involved in team training and aspire to work as a Senior Full Stack Engineer or Technical Leader. I am open to new challenges, motivated to grow professionally, and eager to contribute to the company's success."
+  },
+  "timeline": {
+    "myself": {
+      "jobTitle": "Study & Fun",
+      "description": "I developed a game in C language, based on Pac-Man but with different objectives. The code is structured simulating object-oriented programming in C. The maze is implemented as an implicit graph, and the game includes an AI to make the guards autonomous. The project includes documentation, a user manual, and descriptions of the libraries used."
+    },
+    "myself2": {
+      "jobTitle": "Study & Fun",
+      "description": "I created a class for secure sessions in PHP, managing the session via a database and adopting security measures to protect against major cyber attacks (Brute Force, SQL Injection, Session Hijacking, Network Eavesdropping, and Cross-Site Scripting). I also developed a mini CMS for blogs and showcase sites using PHP5, MySQLi, JavaScript, jQuery, and CSS."
+    },
+    "lumilab": {
+      "jobTitle": "Frontend Developer",
+      "description": "I developed a bike-sharing application for Windows Phone devices using Universal App and C#."
+    },
+    "lastingdynamics": {
+      "jobTitle": "Frontend Developer",
+      "description": "I worked on the front-end development of an event organization application with chat for iOS and Android devices, using technologies such as Apache Cordova, JavaScript, CSS, and HTML."
+    },
+    "bitaly": {
+      "jobTitle": "Full Stack Developer",
+      "description": "I developed a management system for the sale of metal sheets that allows the choice of customized cuts directly on the website with a preview. The technologies used include PHP, Laravel, JavaScript, jQuery, and CSS."
+    },
+    "bitaly2": {
+      "jobTitle": "Full Stack Developer",
+      "description": "I developed technological solutions for clients in the media and military sectors, including web applications (PHP, Laravel, JavaScript, jQuery, Sass, Gulp), real-time applications in C and C++, and Windows desktop applications with Xamarin and WPF using the .NET framework and C#."
+    },
+    "bit4id": {
+      "jobTitle": "Full Stack Developer",
+      "description": "I handled the development of new features and the management of the SigningToday solution, deepening my knowledge of concepts such as cryptography, digital signature, and digital identity. I also managed relationships with various clients for requirement gathering, development, and support. The technologies used include JavaScript, KnockoutJS, Sass, Gulp, Postgres, Python (Django, Tornado, Flask), API REST Design, SOAP, Docker, Nginx, Redis, and SaaS."
+    },
+    "bit4id2": {
+      "jobTitle": "Senior Full Stack Engineer",
+      "description": "I developed and designed new cloud solutions for digital identity management, including an authentication microservice shared between various applications and a new portal for organizing and planning digital signature workflows with videoconferencing and live updates. I also handled deployment in cloud and on-premises environments. The technologies used include Angular, Redux, Sass, Python (Django, FastAPI, Tornado), API REST, MongoDB, Postgres, AWS (Lambda, EC2, S3, API Gateway), Serverless Framework, Nginx, Docker, Redis, unit tests, and integration tests."
+    },
+    "kineton": {
+      "jobTitle": "R&D Expert Full Stack Engineer",
+      "description": "I mainly worked on the development of the cloud infrastructure for the Kinecar and KYMS projects, and the creation of the cloud solution for KineBrain. I also took care of team training. The technologies used include IaC with AWS CDK, serverless architectures, API Gateway, Cognito, Lambda, IoT Core, DynamoDB, S3, AppSync, multi-tenant SaaS solutions, React, Redux, Typescript, AWS Amplify, Node.js, GraphQL, API REST, frontend and backend testing, CI/CD, Sentry, and Microsoft Clarity."
+    },
+    "kineton2": {
+      "jobTitle": "Automotive Cloud Specialist",
+      "description": "Currently, I coordinate and develop an application for planning and automation testing in the automotive sector. I handle requirement gathering, documentation writing, and long-term GANTT production. The technologies I use include Java, Java Play Framework, Angular, Docker, CI/CD, AWS, Amazon ECS, Amazon RDS, Postgres, Redis, Kafka, Python, Grafana, and dSPACE."
+    },
+    "kineton3": {
+      "jobTitle": "P&P Solution Architect",
+      "description": "Within the \"Product and Platform\" unit, I am responsible for designing and developing innovative SaaS and cloud-based microservices solutions. My role involves utilizing various languages and frameworks such as Typescript, Nestjs, Python, and FastAPI. Additionally, we leverage a wide range of AWS services and Infrastructure as Code (IaC) practices to ensure scalability and reliability of our infrastructures. For the frontend, we employ technologies like React and React Native, strictly implementing Typescript to enhance code maintainability and scalability. This approach enables us to deliver innovative and high-quality solutions."
+    }
+  }
+}

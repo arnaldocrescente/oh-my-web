@@ -1,0 +1,30 @@
+// FIXME: find a way to change relative path to reference path
+@import '../../../../styles/variables';
+
+.container {
+  height: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: 1px solid gray;
+  border-radius: 4px;
+
+  padding: 0 6px;
+
+  & > * {
+    margin-right: 4px;
+
+    &:nth-last-child(1) {
+      margin-right: 0;
+    }
+  }
+
+  transform: scale(1);
+  box-shadow: $shadow-value;
+  transition: box-shadow 0.3s ease-in-out;
+
+  &:hover {
+    box-shadow: $hovered-shadow-value;
+  }
+}

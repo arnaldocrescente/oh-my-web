@@ -1,0 +1,61 @@
+// FIXME: find a way to change relative path to reference path
+@import '../../../../../styles/variables';
+
+.container {
+  height: 100%;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  max-width: 900px;
+  position: relative;
+
+  .full-name {
+    font-size: 5.2rem !important;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 0 !important;
+  }
+
+  .role {
+    margin-top: 0.1em !important;
+    margin-bottom: 1.2em !important;
+    font-size: 1.6rem !important;
+  }
+
+  .social-icon {
+    font-size: 24px;
+  }
+
+  .bg {
+    position: absolute;
+
+    width: auto;
+    top: 80px;
+    bottom: 80px;
+    left: 110%;
+
+    box-shadow: $shadow-value;
+
+    img {
+      height: 100%;
+      width: auto;
+    }
+
+    @media (max-width: 1100px) {
+      display: none;
+    }
+
+    @media (min-width: 1101px) and (max-width: 1500px) {
+      transform: translateX(0);
+      transition: transform 0.6s ease-in-out;
+
+      &:hover {
+        transform: translateX(-50%);
+      }
+    }
+  }
+}

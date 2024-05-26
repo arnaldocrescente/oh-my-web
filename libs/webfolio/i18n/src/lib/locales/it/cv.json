@@ -1,0 +1,83 @@
+{
+  "downloadUrl": "https://raw.githubusercontent.com/arnaldocrescente/cv-public/main/cv-2024-IT-public.pdf",
+  "now": "Presente",
+  "aboutme": "Un pò di me",
+  "experience": "Esperienza",
+  "companies": {
+    "myself": {
+      "name": "MySelf",
+      "location": "Napoli"
+    },
+    "lumilab": {
+      "name": "Lumilab srls",
+      "location": "Napoli"
+    },
+    "lastingdynamics": {
+      "name": "Lasting Dynamics srl",
+      "location": "Napoli"
+    },
+    "bitaly": {
+      "name": "Bitaly sas",
+      "location": "Roma"
+    },
+    "bit4id": {
+      "name": "Bit4id srl",
+      "location": "Napoli"
+    },
+    "kineton": {
+      "name": "Kineton srl",
+      "location": "Napoli"
+    }
+  },
+  "intro": {
+    "main": "Mi piace lavorare con tecnologie e stack moderni, non ho preferenze e recentemente ho lavorato con C++, Java e dSpace in ambito Automotive, ma le tecnologie che prediligo sono:",
+    "list": "Servizi SaaS|Node.js, Express.js, Nest.js, TypeScript, React, React Native, Next.js, Angular|Python, FastAPI, Django, Tornado, Flask|AWS, amo lavorare con molti servizi serverless ed utilizzare IaC per il deploy dei vari ambienti|CI/CD|Docker, docker-compose, e Kubernetes| Database non relaizonali come DynamoDB e MongoDB, database relazionale Postgres o anche Key-Value storage come Redis.|Event-driven e strumenti come Kafka, ZeroMQ, PubSub, WebSocket|Ottimizzazione delle performance nel frontend e backend",
+    "middle": "Scrivo il codice seguendo le linee guida del “Clean Code” e vari approcci per rendere il codice manutenibile. Studio attivamente al di fuori dell'orario di lavoro per trovare le migliori soluzioni e rimanere aggiornato sulle ultime novità. Mi fa piacere prendere parte alla formazione del team e vorrei lavorare come Senior Full Stack Engineer o Technical Leader. Sono aperto a nuove sfide, sono motivato a crescere professionalmente e voglio dare il mio contributo al successo dell’azienda."
+  },
+  "timeline": {
+    "myself": {
+      "jobTitle": "Study&Fun",
+      "description": "Ho sviluppato un gioco in linguaggio C, basato su Pac-Man ma con obiettivi diversi. Il codice è strutturato simulando la programmazione ad oggetti in C. Il labirinto è implementato come un grafo implicito, e il gioco include un'IA per rendere autonome le guardie. Il progetto comprende documentazione, manuale utente e descrizione delle librerie utilizzate."
+    },
+    "myself2": {
+      "jobTitle": "Study&Fun",
+      "description": "Ho creato una classe per una sessione sicura in PHP, gestendo la sessione tramite un database e adottando misure di sicurezza per proteggersi dai principali attacchi informatici (Brute Force, SQL Injection, Session Hijacking, Network Eavesdropping e Cross Site Scripting). Ho inoltre sviluppato un mini CMS per blog e sito vetrina utilizzando PHP5, MySQLi, JavaScript, jQuery e CSS."
+    },
+    "lumilab": {
+      "jobTitle": "Frontend Developer",
+      "description": "Ho sviluppato un'applicazione bike sharing per dispositivi Windows Phone utilizzando Universal App e C#."
+    },
+    "lastingdynamics": {
+      "jobTitle": "Frontend Developer",
+      "description": "Ho lavorato allo sviluppo front-end dell'applicazione per l'organizzazione di eventi corredata di chat per dispositivi iOS e Android, utilizzando tecnologie come Apache Cordova, JavaScript, CSS e HTML."
+    },
+    "bitaly": {
+      "jobTitle": "Full Stack Developer",
+      "description": "Ho sviluppato un gestionale per la vendita di lamiere che permette la scelta del taglio personalizzato direttamente sul sito web con anteprima. Le tecnologie utilizzate includono PHP, Laravel, Javascript, jQuery e CSS."
+    },
+    "bitaly2": {
+      "jobTitle": "Full Stack Developer",
+      "description": "Ho sviluppato soluzioni tecnologiche per clienti nei settori media e militare, inclusi web application (PHP, Laravel, Javascript, jQuery, Sass, Gulp), applicativi real-time in C e C++, e applicativi Windows desktop con Xamarin e WPF utilizzando .NET framework e C#."
+    },
+    "bit4id": {
+      "jobTitle": "Full Stack Developer",
+      "description": "Mi sono occupato dello sviluppo di nuove funzionalità e della gestione della soluzione SigningToday, approfondendo concetti come crittografia, firma e identità digitale. Ho gestito il rapporto con vari clienti per la raccolta dei requisiti, lo sviluppo e il supporto. Le tecnologie utilizzate includono Javascript, KnockoutJS, Sass, Gulp, Postgres, Python (Django, Tornado, Flask), API REST Design, SOAP, Docker, Nginx, Redis e SaaS."
+    },
+    "bit4id2": {
+      "jobTitle": "Senior Full Stack Engineer",
+      "description": "Ho sviluppato e progettato nuove soluzioni cloud per la gestione delle identità digitali, incluso un microservizio per l'autenticazione condiviso tra vari applicativi e un nuovo portale per la pianificazione dei flussi di firma digitale con videoconferenza e aggiornamenti live. Mi sono occupato anche del deployment in ambienti cloud e on-premises. Le tecnologie utilizzate includono Angular, Redux, Sass, Python (Django, FastAPI, Tornado), API REST, MongoDB, Postgres, AWS (Lambda, EC2, S3, API Gateway), Serverless Framework, Nginx, Docker, Redis, unit test e integration test."
+    },
+    "kineton": {
+      "jobTitle": "R&D Expert Full Stack Engineer",
+      "description": "Ho lavorato principalmente allo sviluppo dell'infrastruttura cloud per i progetti Kinecar e KYMS, e alla creazione della soluzione cloud per KineBrain. Mi sono anche occupato della formazione del team. Le tecnologie utilizzate includono IaC con AWS CDK, architetture serverless, API Gateway, Cognito, Lambda, IoT Core, DynamoDB, S3, AppSync, soluzioni SaaS multi-tenant, React, Redux, Typescript, AWS Amplify, Node.js, GraphQL, API REST, testing di frontend e backend, CI/CD, Sentry e Microsoft Clarity."
+    },
+    "kineton2": {
+      "jobTitle": "Automotive Cloud Specialist",
+      "description": "Attualmente coordino e sviluppo un'applicazione per la pianificazione e l'automazione dei test nel settore automotive. Mi occupo della raccolta dei requisiti, della scrittura della documentazione e della produzione di GANTT a lungo termine. Le tecnologie che utilizzo includono Java, Java Play Framework, Angular, Docker, CI/CD, AWS, Amazon ECS, Amazon RDS, Postgres, Redis, Kafka, Python, Grafana e dSPACE."
+    },
+    "kineton3": {
+      "jobTitle": "P&P Solution Architect",
+      "description": "Nell'unità \"Product and Platform\", sono responsabile del design e dello sviluppo di soluzioni innovative SaaS e basate su microservizi nel cloud. La mia attività coinvolge l'utilizzo di diversi linguaggi e framework, quali Typescript, Nestjs, Python e FastAPI. Inoltre, adottiamo una vasta gamma di servizi AWS e pratiche di Infrastructure as Code (IaC) per garantire la scalabilità e l'affidabilità delle nostre infrastrutture. Per il frontend, impieghiamo tecnologie come React e React Native, implementando rigorosamente il Typescript per migliorare la manutenibilità e la scalabilità del codice. Questo approccio ci consente di offrire soluzioni innovative e di alta qualità."
+    }
+  }
+}

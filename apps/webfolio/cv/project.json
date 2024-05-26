@@ -1,0 +1,103 @@
+{
+  "name": "cv",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/webfolio/cv/src",
+  "projectType": "application",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nx/webpack:webpack",
+      "outputs": [
+        "{options.outputPath}"
+      ],
+      "defaultConfiguration": "production",
+      "options": {
+        "compiler": "babel",
+        "outputPath": "dist/apps/webfolio/cv",
+        "index": "apps/webfolio/cv/src/index.html",
+        "baseHref": "/",
+        "main": "apps/webfolio/cv/src/main.ts",
+        "tsConfig": "apps/webfolio/cv/tsconfig.app.json",
+        "assets": [
+          "apps/webfolio/cv/src/favicon.ico",
+          "apps/webfolio/cv/src/assets"
+        ],
+        "styles": [
+          "apps/webfolio/cv/src/styles.scss"
+        ],
+        "scripts": [],
+        "webpackConfig": "apps/webfolio/cv/webpack.config.ts"
+      },
+      "configurations": {
+        "development": {
+          "extractLicenses": false,
+          "optimization": false,
+          "sourceMap": true,
+          "vendorChunk": true
+        },
+        "production": {
+          "fileReplacements": [
+            {
+              "replace": "apps/webfolio/cv/src/environments/environment.ts",
+              "with": "apps/webfolio/cv/src/environments/environment.prod.ts"
+            }
+          ],
+          "optimization": true,
+          "outputHashing": "all",
+          "sourceMap": false,
+          "namedChunks": false,
+          "extractLicenses": true,
+          "vendorChunk": false,
+          "webpackConfig": "apps/webfolio/cv/webpack.config.prod.ts"
+        }
+      }
+    },
+    "serve": {
+      "executor": "@nx/react:module-federation-dev-server",
+      "defaultConfiguration": "development",
+      "options": {
+        "buildTarget": "cv:build",
+        "hmr": true,
+        "port": 4201
+      },
+      "configurations": {
+        "development": {
+          "buildTarget": "cv:build:development"
+        },
+        "production": {
+          "buildTarget": "cv:build:production",
+          "hmr": false
+        }
+      }
+    },
+    "lint": {
+      "executor": "@nx/eslint:lint"
+    },
+    "serve-static": {
+      "executor": "@nx/web:file-server",
+      "defaultConfiguration": "production",
+      "options": {
+        "buildTarget": "cv:build",
+        "watch": false,
+        "port": 4201
+      },
+      "configurations": {
+        "development": {
+          "buildTarget": "cv:build:development"
+        },
+        "production": {
+          "buildTarget": "cv:build:production"
+        }
+      }
+    },
+    "test": {
+      "executor": "@nx/jest:jest",
+      "outputs": [
+        "{workspaceRoot}/coverage/{projectRoot}"
+      ],
+      "options": {
+        "jestConfig": "apps/webfolio/cv/jest.config.ts"
+      }
+    }
+  }
+}
