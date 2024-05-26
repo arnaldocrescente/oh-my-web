@@ -45,11 +45,6 @@ export function App() {
       label: t('main:nav.cv'),
       icon: <UserOutlined />,
     },
-    // {
-    //   path: '/contacts',
-    //   label: t('main:nav.contacts'),
-    //   icon: <ContactsOutlined />,
-    // },
   ];
 
   const switchTheme = (checked: boolean) => {

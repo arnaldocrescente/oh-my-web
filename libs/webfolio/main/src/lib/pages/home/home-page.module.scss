@@ -18,6 +18,10 @@
     text-transform: uppercase;
     font-weight: 700;
     margin-bottom: 0 !important;
+
+    @media (max-width: 801px) {
+      font-size: 4rem !important;
+    }
   }
 
   .role {
