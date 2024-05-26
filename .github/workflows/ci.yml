@@ -5,37 +5,36 @@ name: Node.js CI
 
 on:
   push:
-    branches: [ "main" ]
+    branches: ['main']
   pull_request:
-    branches: [ "main" ]
-    
+    branches: ['main']
+
 permissions:
   contents: read
   pages: write
   id-token: write
-  
+
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout Repository
-      uses: actions/checkout@v4
-    - name: Setup Node
-      uses: actions/setup-node@v4
-      with:
-        node-version: "20"
-    - name: Setup yarn
-      run: npm install -g yarn
-    - name: Install dependencies
-      run: yarn install
-    - name: Build project
-      run: yarn run predeploy:webfolio
-    - name: Upload artifact
-      uses: actions/upload-pages-artifact@v3
-      with:
-        path: ./production/webfolio
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Setup yarn
+        run: npm install -g yarn
+      - name: Install dependencies
+        run: yarn install
+      - name: Build project
+        run: yarn run predeploy
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./production/webfolio
 
   # Deployment job
   deploy:
