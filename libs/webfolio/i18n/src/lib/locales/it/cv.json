@@ -30,9 +30,9 @@
     }
   },
   "intro": {
-    "main": "Mi piace lavorare con tecnologie e stack moderni, non ho preferenze e recentemente ho lavorato con C++, Java e dSpace in ambito Automotive, ma le tecnologie che prediligo sono:",
-    "list": "Servizi SaaS|Node.js, Express.js, Nest.js, TypeScript, React, React Native, Next.js, Angular|Python, FastAPI, Django, Tornado, Flask|AWS, amo lavorare con molti servizi serverless ed utilizzare IaC per il deploy dei vari ambienti|CI/CD|Docker, docker-compose, e Kubernetes| Database non relaizonali come DynamoDB e MongoDB, database relazionale Postgres o anche Key-Value storage come Redis.|Event-driven e strumenti come Kafka, ZeroMQ, PubSub, WebSocket|Ottimizzazione delle performance nel frontend e backend",
-    "middle": "Scrivo il codice seguendo le linee guida del “Clean Code” e vari approcci per rendere il codice manutenibile. Studio attivamente al di fuori dell'orario di lavoro per trovare le migliori soluzioni e rimanere aggiornato sulle ultime novità. Mi fa piacere prendere parte alla formazione del team e vorrei lavorare come Senior Full Stack Engineer o Technical Leader. Sono aperto a nuove sfide, sono motivato a crescere professionalmente e voglio dare il mio contributo al successo dell’azienda."
+    "main": "Sono alla ricerca di un'opportunità lavorativa stimolante in una realtà dinamica e innovativa, in cui poter mettere in pratica le mie competenze e fare la differenza. Mi piace lavorare con tecnologie e stack moderni, non ho preferenze e recentemente ho lavorato con C++, Java e dSpace in ambito Automotive. Tuttavia, le tecnologie che prediligo sono:",
+    "list": "Servizi SaaS|Node.js, Express.js, Nest.js, TypeScript, React, React Native, Next.js, Angular|Python, FastAPI, Django, Tornado, Flask|AWS, amo lavorare con molti servizi serverless ed utilizzare IaC per il deploy dei vari ambienti|CI/CD|Docker, docker-compose, e Kubernetes| Database non relazionali come DynamoDB e MongoDB, database relazionale Postgres o anche Key-Value storage come Redis.|Event-driven e strumenti come Kafka, ZeroMQ, PubSub, WebSocket|Ottimizzazione delle performance nel frontend e backend",
+    "middle": "Scrivo il codice seguendo le linee guida del “Clean Code” e utilizzando vari approcci per renderlo manutenibile. Studio attivamente al di fuori dell'orario di lavoro per trovare le migliori soluzioni e rimanere aggiornato sulle ultime novità. Mi fa piacere prendere parte alla formazione del team e vorrei lavorare come Senior Full Stack Engineer o Technical Leader. Sono aperto a nuove sfide, sono motivato a crescere professionalmente e voglio dare il mio contributo al successo dell’azienda."
   },
   "timeline": {
     "myself": {
@@ -65,15 +65,15 @@
     },
     "bit4id2": {
       "jobTitle": "Senior Full Stack Engineer",
-      "description": "Ho sviluppato e progettato nuove soluzioni cloud per la gestione delle identità digitali, incluso un microservizio per l'autenticazione condiviso tra vari applicativi e un nuovo portale per la pianificazione dei flussi di firma digitale con videoconferenza e aggiornamenti live. Mi sono occupato anche del deployment in ambienti cloud e on-premises. Le tecnologie utilizzate includono Angular, Redux, Sass, Python (Django, FastAPI, Tornado), API REST, MongoDB, Postgres, AWS (Lambda, EC2, S3, API Gateway), Serverless Framework, Nginx, Docker, Redis, unit test e integration test."
+      "description": "Ho sviluppato e progettato nuove soluzioni cloud per la gestione delle identità digitali, inclusi un microservizio per l'autenticazione condiviso tra vari applicativi e un nuovo portale per la pianificazione dei flussi di firma digitale con videoconferenza e aggiornamenti live. Mi sono occupato anche del deployment in ambienti cloud e on-premises. Le tecnologie utilizzate includono Angular, Redux, Sass, Python (Django, FastAPI, Tornado), API REST, MongoDB, Postgres, AWS (Lambda, EC2, S3, API Gateway), Serverless Framework, Nginx, Docker, Redis, unit test e integration test."
     },
     "kineton": {
       "jobTitle": "R&D Expert Full Stack Engineer",
-      "description": "Ho lavorato principalmente allo sviluppo dell'infrastruttura cloud per i progetti Kinecar e KYMS, e alla creazione della soluzione cloud per KineBrain. Mi sono anche occupato della formazione del team. Le tecnologie utilizzate includono IaC con AWS CDK, architetture serverless, API Gateway, Cognito, Lambda, IoT Core, DynamoDB, S3, AppSync, soluzioni SaaS multi-tenant, React, Redux, Typescript, AWS Amplify, Node.js, GraphQL, API REST, testing di frontend e backend, CI/CD, Sentry e Microsoft Clarity."
+      "description": "Ho lavorato principalmente allo sviluppo dell'infrastruttura cloud per i progetti Kinecar e KYMS nonché alla creazione della soluzione cloud per KineBrain. Mi sono anche occupato della formazione del team. Le tecnologie utilizzate includono IaC con AWS CDK, architetture serverless, API Gateway, Cognito, Lambda, IoT Core, DynamoDB, S3, AppSync, soluzioni SaaS multi-tenant, React, Redux, Typescript, AWS Amplify, Node.js, GraphQL, API REST, testing di frontend e backend, CI/CD, Sentry e Microsoft Clarity."
     },
     "kineton2": {
       "jobTitle": "Automotive Cloud Specialist",
-      "description": "Attualmente coordino e sviluppo un'applicazione per la pianificazione e l'automazione dei test nel settore automotive. Mi occupo della raccolta dei requisiti, della scrittura della documentazione e della produzione di GANTT a lungo termine. Le tecnologie che utilizzo includono Java, Java Play Framework, Angular, Docker, CI/CD, AWS, Amazon ECS, Amazon RDS, Postgres, Redis, Kafka, Python, Grafana e dSPACE."
+      "description": "Coordinazione e sviluppo un'applicazione per la pianificazione e l'automazione dei test nel settore automotive. Mi sono occupato della raccolta dei requisiti, della scrittura della documentazione e della produzione di GANTT a lungo termine. Le tecnologie che ho utilizzato includono Java, Java Play Framework, Angular, Docker, CI/CD, AWS, Amazon ECS, Amazon RDS, Postgres, Redis, Kafka, Python, Grafana e dSPACE."
     },
     "kineton3": {
       "jobTitle": "P&P Solution Architect",

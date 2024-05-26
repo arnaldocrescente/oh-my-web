@@ -1,16 +1,11 @@
 {
-  "title": "Benvenuto!",
-  "description": {
-    "part1": "Questo è solo un esempio di come usare i18next con Typesctipt",
-    "part2": "😉"
-  },
   "home": {
     "description": "Sono uno sviluppatore e amo il mio lavoro 💻. Mi impegno costantemente a migliorare le mie competenze e a rimanere aggiornato sulle tecnologie all'avanguardia 📚, offrendo soluzioni sempre più efficienti e innovative 🚀. Al di fuori del lavoro, mi piace dedicarmi a vari hobby che mi mantengono attivo e motivato. Amo la musica 🎵, suono la chitarra 🎸 e frequento molti concerti 🎤. Trovo il trekking 🥾 un ottimo modo per mantenermi in forma. Il rugby 🏉 mi ha insegnato il rispetto per i compagni e l'importanza del gioco di squadra, valori che porto nel mio lavoro di sviluppatore e tech leader 👨‍💻. Mi piace sperimentare in cucina 🍳 e dedicarmi alla lavorazione del legno e del ferro 🛠️, realizzando vari progetti."
   },
+  "sourcecode": "Codice sorgente",
   "inter": "interpolato {{val}}",
   "nav": {
     "home": "Home",
-    "cv": "CV",
-    "contacts": "Contatti"
+    "cv": "CV"
   }
 }
